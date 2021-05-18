@@ -1,0 +1,117 @@
+<!DOCTYPE html> <!--Ertiqueta inicial de todo docuemento html-->
+<html><!--Indica que todo lo que esta envuelto entre estas etiquetas es parte del documento y se tiene que interpretar como una página web-->
+    <head> <!--Sección del docuemnto donde especificamos las configuraciones-->
+        <meta charset="utf-8"> <!--Los meta le indican al navegador como debe interpretar nuestro docuemnto html, también nos sirve para configurar enlaces o la manera en como los buscadores interactuan con nuestro documento, las etiquetas meta son opcionales-->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="description" content="Es una página web para ejemplificar las secciones de estructura de html.">
+        <meta name="keywords" content="html5, header, section, main, footer, aside, nav">
+        <title>Mi primer maquetado web</title><!--Corresponde a la únicaparte visible de la etiqueta head y es el título que aparece en la pestañadel explorador-->
+        <!--Etiqueta donde se configuran los estilos de la página-->
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            html{
+                background-color:black;
+            }
+            body{
+                width: 1000px;
+                height: 850px;
+                background-color:pink;
+                margin:auto;
+            }
+            header{
+                width:100%;
+                height:250px;
+                background-color:aquamarine;
+            }
+            nav{
+                width: 100%;
+                height:50px;
+                background-color:yellow;
+            }
+            main{
+                width:100%;
+                height: 500px;
+                background-color:blueviolet;
+            }
+            footer{
+                width:100%;
+                height: 50px;
+                background-color:tomato;
+            }
+            section#banner{
+                width:750px;
+                height:100%;
+                background-color:chartreuse;
+                float:left;
+            }
+            #logo{
+                width:250px;
+                height: 50%;
+                background-color: teal;
+                float: left;
+            }
+            #login{
+                width: 250px;
+                height: 50%;
+                background-color: sienna;
+                float:left;
+            }
+            article{
+                width: 700px;
+                height: 100%;
+                float: left;
+                background-color: peru;
+            }
+            aside{
+                width: 300px;
+                height: 100%;
+                float: left;
+                background-color: darkgoldenrod;
+            }
+            nav ul{
+                width: 100%;
+                height: 100%;
+            }
+            nav ul li{
+                list-style-type:none;
+            }
+            nav ul li a{
+                width: 20%;
+                float:left;
+                line-height: 50px;
+                text-decoration: none;
+                text-align: center;
+            }
+            nav ul li a:hover{
+                color:white;
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body> <!--Parte visible del documento html-->
+        <header> <!--Seccion correspondiente al encabezado, etiqueta incorporada en la versión de html5-->
+            <section id="banner"><span>banner</span></section>
+            <section id="logo"><span>logo</span></section>
+            <section id="login"><span>login</span></section>
+        </header>
+        <nav><!--Seccion uilizada para establecer un menú de navegación, etiqueta incorporada en la versión de html5-->
+            <ul>
+                <li><a href="#">menu01</a></li>
+                <li><a href="#">menu02</a></li>
+                <li><a href="#">menu03</a></li>
+                <li><a href="#">menu04</a></li>
+                <li><a href="#">menu05</a></li>
+            </ul>
+        </nav>
+        <main><!--Seccion destinada para el contenido principal del docuemnto, etiqueta incorporada en la versión de html5-->
+            <article><span>contenido</span></article>
+            <aside><span>comentarios</span></aside>
+        </main>
+        <footer><!--Seccion correspodeinte al pie de pagina del docuemnto, etiqueta incorporada en la versión de html5-->
+            <span>pie</span>
+        </footer>
+    </body>
+</html>
