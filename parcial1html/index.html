@@ -6,46 +6,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <meta name="description" content="Es una página web para ejemplificar las secciones de estructura de html">
         <meta name="keywords" content="">
-        <link rel="icon" href="assets/image/favicon-16x16.png" 
-        type="image/png" sizes="16x16">
+        <link rel="icon" href="assets/image/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="stylesheet" href="assets/style/style.css"> <!--Para ligar los estilos de css desde otro archivo-->
     </head>
     <body>
         <header>
-            <section id="banner"><span>banner</span></section>
-            <section id="logo"><span>logo</span></section>
-            <section id="login"><span>login</span></section>
-            </header>
-        <nav>
+            <section id="banner">
+                <img src="assets/image/banner.jpg" alt="Banner" width="750" height="250">
+            </section>
+            <section id="logo">
+                <img src="assets/image/logo.png" alt="Logotipo" widht="250" height="125">
+            </section>
+            <section id="login">
+                <span>login</span>
+            </section>
+        </header>
+        <nav> <!--Sección utilizada para establecer un menú de navegación, etiqueta incorporada en la versión de html5-->
             <ul>
-                <li><a href="#">menu01</a></li>
-                <li><a href="#">menu02</a></li>
-                <li><a href="#">menu03</a></li>
-                <li><a href="#">menu04</a></li>
-                <li><a href="#">menu05</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#newsletter">Noticias</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="./pages/signup.html">Registro</a></li>
             </ul>
         </nav>
-        <main>
+        <main> 
             <article>
                 <h1>HTML y CSS</h1>
-                <div>
+                <div id="html">
                     <h2>HTML</h2>
-                    <img src="#" alt="html">
-                    <p>Parrafo1</p>
-                    <p>Parrafo2</p>
+                    <img src="assets/image/html5-logo.svg" alt="HTML">
+                    <p>El <em>28 de octubre de 2014</em> se aprobó la <strong> Recomendación HTML 5</strong>, culminando así diez años de trabajo. En 2004 se formó el WHATWG, un grupo informal de individuos y empresas decididos a impulsar el desarrollo del HTML, que se encontraba bloqueado en el W3C desde el año 2000. En 2007 el W3C retomó el trabajo sobre el HTML y siete años después se alcanzó el objetivo.
+                        Pero el HTML 5 no era más que el primer paso. En noviembre de 2016 se aprobó la recomendación HTML 5.1, ampliando y clarificando el HTML 5, en diciembre de 2017 se aprobó la recomendación HTML 5.2 y el W3C prepara el HTML 5.3 para finales de 2018.</p>
                 </div>
-                <div>
-                    <h2>HTML</h2>
-                    <img src="#" alt="html">
-                    <p>Parrafo1</p>
-                    <p>Parrafo2</p>
+                <div id="css">
+                    <h2>CSS</h2>
+                    <img src="assets/image/css3-logo.svg" alt="css">
+                    <p>Desde la aprobación de CSS 2 en 1998, el W3C ha estado trabajando en la siguiente generación de las hojas de estilo, las CSS 3. Las Recomendaciones CSS 3 se planificaron como un conjunto de recomendaciones en vez de como un documento único. El proceso resultó mucho más largo de lo esperado: las primeras recomendaciones CSS 3 no se aprobaron hasta 2011.</p>
+                    <p>Aunque los navegadores admiten muchas características de los borradores de CSS 3, la publicación de HTML 5 no ha acelerado el desarrollo de CSS 3.</p>
                 </div>
             </article>
                 <!--PAra agurpar se usa section o div-->
-            <aside><span>comentarios</span></aside>
+            <aside id="newsletter">
+                <ul>
+                    <li>
+                        <section>
+                            <h3>noticia 1</h3>
+                            <p>T o popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3>noticia 2</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3>noticia 3</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                        </section>
+                    </li>
+                </ul>
+            </aside>
         </main>   
-        <footer>
-            <span>pie</span>
+        <footer id="about">
+            <p class="footer">
+            Página inicial del curso <a href="http://cursos.utmetropolitana.edu.mx/moodle/course/view.php?id=595"><cite>desarrollo web</cite> </a>Impartido por Joel Chuc
+            </p>
         </footer>    
     </body>
 </html> 

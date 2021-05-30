@@ -1,0 +1,19 @@
+body{
+    background-color:#A1A9BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#foto{
+    float:left;
+    margin: 5px;
+}
+
+h3{
+    color: red;
+    background-color: #E4D1CC;
+}
+.datos{
+    background-color:#E1DFDC ;
+}

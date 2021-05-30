@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="shortcut icon" href="../assets/image/favicon-16x16.png" type="image/png">
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Nombre" required> <!--crea una espacio para escribir-->
+        <input type="checkbox" name="sexo" value="male" id="chkmale" required>
+        <label for="chkmale">male</label>
+        <input type="checkbox" name="sexo" value="female" id="chkfemale">
+        <label for="chkfemale">Female</label>  <!--El for hace que se pueda seleccionar el checkbox presionando arriba de la etiqueta-->
+        <input type="email" name="email" id="email" placeholder="ejemplo@correo.com">
+        <button type="submit">Enviar</button> <!--Este será el post-->
+    </form>
+</body>
+</html>
