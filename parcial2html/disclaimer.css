@@ -1,0 +1,18 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 183, 187);
+}
+
+
+.lyrics{
+    color: rgb(81, 63, 95);    
+
+}
+
+p{
+color: rgb(146, 25, 140);
+}
+
+#pop{
+    color: darkorange;
+}
