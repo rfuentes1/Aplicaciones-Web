@@ -1,0 +1,8 @@
+/* selectores */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/parcial2html/pruebasBootstrap/images/banner.jpg);
+}
