@@ -9,10 +9,36 @@ body{
 
 }
 
-p{
-color: rgb(146, 25, 140);
-}
-
 #pop{
     color: darkorange;
+}
+
+div.childs li span{
+    border:2.5rem double cornflowerblue;
+    background-color: slateblue;
+    color: darkred;
+
+}
+
+div.nest ul li pre span {
+    border: 1.5rem dashed darkseagreen;
+    background-color: deepskyblue;
+    color: red;
+
+}
+
+div.nest a{
+    color:teal;
+    font-size: 2rem;
+}
+
+div.nest a:link{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+div.nest a:visited{
+    text-transform: lowercase;
+    text-decoration: underline;
+    color: yellow;
 }
