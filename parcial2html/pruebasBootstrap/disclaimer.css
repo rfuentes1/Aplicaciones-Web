@@ -4,5 +4,60 @@
     padding: 0;
 }
 header{
-    background-image: url(/parcial2html/pruebasBootstrap/images/banner.jpg);
+    background-image: url("/parcial2html/pruebasBootstrap/images/banner.jpg");
+    background: black;
+    background-size: cover ;
+    color: white;
+    height: 250px;
+}
+
+.text-shadow{
+    text-shadow: 0.1em 0.1em darkgoldenrod;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#principal p{
+    text-align: justify;
+}
+
+aside{
+    background-color: #c0392B;
+    color: rgb(226, 207, 97);
+}
+
+#politicas img{
+    width: 200px;
+}
+
+article.column-color{
+    background-color: #34495E;
+    color: white;
+}
+
+#condicion1{
+    background-image: url("./images/bg-img-03.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#condicion1 img{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+}
+
+#condicion2{
+    background-image: url("./images/bg-img-03.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#condicion2 img{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
 }

@@ -1,41 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="/libs/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/parcial2html/pruebasBootstrap/disclaimer.css">
     <title>Forms</title>
 </head>
+
 <body>
     <header>
-        <div class="container-fluid">
-            <nav>
-                <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <span class="navbar-brand">Demo bootstrap</span>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler text-white" id="" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="#" class="nav-link">inicio</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">noticias</a></li>
                         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">a cerca</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">REgistrp</a></li>
-                        
+
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <main>
+        <!-- Cada div es una seccion -->
+        <div class="container" id="principal">
+            <!-- es una fila de bootstrap -->
+            <div class="row">
+                <!-- article.col-md-9+aside.col-md-3 -->
+                <article class="col-sm-8 col-md-9">
+                    <h2 class="fw-bold text-center">Contenidpo principal</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae placeat sint possimus reiciendis!
+                        Quaerat ipsa voluptate vel. Saepe dolore, ullam ipsum, reiciendis harum ducimus, doloremque
+                        aliquid nemo placeat obcaecati non?</p>
+                    <p>Nemo eos ipsa hic excepturi cupiditate vitae voluptatibus beatae provident facere adipisci est
+                        obcaecati voluptates sed nihil, fugit porro sequi, sapiente nobis! Reprehenderit ea soluta,
+                        asperiores nisi tempora nulla! Repellat.</p>
+                    <p>Debitis saepe nemo provident facere esse porro, reprehenderit ea neque deserunt quos,
+                        perferendis, cum at maxime autem adipisci molestias consectetur illum a quidem. Quam deleniti
+                        aperiam natus soluta rem temporibus?</p>
+                </article>
+                <aside class="col-sm-4 col-md-3 my-auto">
+                    <h2 class="fw-bold text-center">Contenido Secundario</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, iste autem magni modi animi
+                        in optio at deleniti tenetur culpa officiis alias quas, harum adipisci. Fuga cupiditate libero
+                        unde praesentium.</p>
+                </aside>
+            </div>
+        </div>
+        <div class="container" id="politicas">
+            <div class="row">
+                <h3 class="fw-bold">
 
-    
+                </h3>
+                <div class="row text-center">
+                    <!-- (article.col-lg-3)*4 -->
+                    <article class="col-xs-12 col-md-6 col-lg-3 column-color">
+                        <img src="./images/police-01.svg" alt="politica-1" class="img-fluid">
+                        <h4>Política 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quae nobis, cum
+                            praesentium perferendis, quam, animi quas dolores quaerat debitis error quidem fugit! Sed
+                            ullam deserunt inventore ut expedita.</p>
+                    </article>
+                    <article class="col-xs-12 col-md-6 col-lg-3">
+                        <img src="./images/police-02.svg" alt="politica-2" class="img-fluid">
+                        <h4>Política 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quae nobis, cum
+                            praesentium perferendis, quam, animi quas dolores quaerat debitis error quidem fugit! Sed
+                            ullam deserunt inventore ut expedita.</p>
+                    </article>
+                    <article class="col-xs-12 col-md-6 col-lg-3 column-color">
+                        <img src="./images/police-03.svg" alt="politica-3" class="img-fluid">
+                        <h4>Política 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quae nobis, cum
+                            praesentium perferendis, quam, animi quas dolores quaerat debitis error quidem fugit! Sed
+                            ullam deserunt inventore ut expedita.</p>
+                    </article>
+                    <article class="col-xs-12 col-md-6 col-lg-3">
+                        <img src="./images/police-04.svg" alt="politica-4" class="img-fluid">
+                        <h4>Política 4</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quae nobis, cum
+                            praesentium perferendis, quam, animi quas dolores quaerat debitis error quidem fugit! Sed
+                            ullam deserunt inventore ut expedita.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="condicion1">
+            <!-- padding py-5 -->
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <img src="./images/fig-02.jpg" alt="condicion-1" class="img-fluid rounded-circle">
+                </div>
+                <div class="div col-md-8 ">
+                    <h3 class="fw-bold">Términos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit commodi illum voluptatibus sunt? Beatae neque ab voluptate deleniti nihil ex repellat quibusdam officia veritatis nobis esse, natus omnis fuga! Hic.</p>
+                    <p>Est dicta ducimus fugit ea facere possimus dolorum molestias placeat? Aliquid laudantium hic magnam quaerat nobis, voluptas, cumque alias ut dolore molestiae consequuntur veritatis id optio ipsa consectetur. Repellendus, explicabo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="datos">
+            
+        </div>
+        <!-- container-fluid se extiende en todo el espacio -->
+        <div class="container-fluid" id="condicion2">
+                <!-- padding py-5 -->
+            <div class="row flex-row-reverse py-5">
+                <div class="col-md-4">
+                    <img src="./images/fig-02.jpg" alt="condicion-1" class="img-fluid rounded-circle">
+                </div>
+                <div class="div col-md-8 ">
+                    <h3 class="fw-bold">Términos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit commodi illum voluptatibus sunt? Beatae neque ab voluptate deleniti nihil ex repellat quibusdam officia veritatis nobis esse, natus omnis fuga! Hic.</p>
+                    <p>Est dicta ducimus fugit ea facere possimus dolorum molestias placeat? Aliquid laudantium hic magnam quaerat nobis, voluptas, cumque alias ut dolore molestiae consequuntur veritatis id optio ipsa consectetur. Repellendus, explicabo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id=""></div>
+        <div class="container" id=""></div>
+
+
     </main>
 
     <footer>
@@ -46,4 +143,5 @@
 
 
 </body>
-</html> 
+
+</html>
